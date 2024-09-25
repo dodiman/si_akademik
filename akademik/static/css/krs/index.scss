@@ -1,0 +1,18 @@
+@import "../mixin";
+
+.form_data_mahasiswa {
+    // @include garis;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+
+    label {
+        width: fit-content;
+    }
+}
+
+.info_mahasiswa {
+    margin: 20px;
+}

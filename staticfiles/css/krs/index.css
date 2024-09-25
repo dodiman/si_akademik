@@ -1,0 +1,15 @@
+.form_data_mahasiswa {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.form_data_mahasiswa label {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.info_mahasiswa {
+  margin: 20px;
+}/*# sourceMappingURL=index.css.map */
