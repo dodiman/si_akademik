@@ -1,0 +1,11 @@
+{
+    "builds": [{
+        "src": "si_akademik/wsgi.py",
+        "use": "@verce/python",
+        "config": { "maxLambdaSize": "15mb", "runtime": "python3.12"}
+    }],
+    "routes": [{
+        "src": "/(.*)",
+        "dest": "si_akademik/wsgi.py"
+    }]
+}
